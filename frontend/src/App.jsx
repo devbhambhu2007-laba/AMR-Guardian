@@ -1,9 +1,13 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Layout from './components/Layout/Layout'
-import Landing from './pages/Landing'
-import Assessment from './pages/Assessment'
-import Results from './pages/Results'
-import Learn from './pages/Learn'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Layout from "./components/Layout/Layout";
+import Landing from "./pages/Landing";
+import Assessment from "./pages/Assessment";
+import Results from "./pages/Results";
+import Learn from "./pages/Learn";
+
+// NEW
+import Chatbot from "./components/Chatbot/Chatbot";
 
 function App() {
   return (
@@ -16,8 +20,11 @@ function App() {
           <Route path="/learn" element={<Learn />} />
         </Routes>
       </Layout>
+
+      {/* Floating chatbot */}
+      <Chatbot />
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

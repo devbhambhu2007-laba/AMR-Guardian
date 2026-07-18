@@ -1,14 +1,20 @@
-from loader import load_documents
-from chunker import chunk_documents
+from .loader import load_documents
+from .chunker import chunk_documents
+from .embeddings import get_embedding
+from .vector_store import collection
 
 docs = load_documents()
-
-print(f"Loaded {len(docs)} pages")
-
 chunks = chunk_documents(docs)
 
-print(f"Created {len(chunks)} chunks")
+for i, chunk in enumerate(chunks):
 
-print("\nFirst Chunk:\n")
+    embedding = get_embedding(chunk.page_content)
 
-print(chunks[0].page_content)
+    collection.add(
+        ids=[str(i)],
+        embeddings=[embedding],
+        documents=[chunk.page_content],
+        metadatas=[chunk.metadata]
+    )
+
+print(f"Stored {len(chunks)} chunks!")
