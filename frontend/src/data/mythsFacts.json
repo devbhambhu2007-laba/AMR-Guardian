@@ -1,0 +1,80 @@
+[
+  {
+    "claim": "Antibiotics cure the common cold and flu",
+    "is_true": false,
+    "correction": "The common cold and flu are caused by viruses. Antibiotics only work against bacterial infections and have no effect on viral illnesses.",
+    "source_ref": "CDC — Antibiotic Use"
+  },
+  {
+    "claim": "You should stop taking antibiotics once you feel better",
+    "is_true": false,
+    "correction": "Always complete the full prescribed course. Stopping early can leave resistant bacteria alive, which may multiply and spread.",
+    "source_ref": "WHO AMR Guidance"
+  },
+  {
+    "claim": "Antibiotic resistance means your body becomes resistant to antibiotics",
+    "is_true": false,
+    "correction": "It's the bacteria that become resistant, not your body. Resistant bacteria can spread to other people, making infections harder to treat for everyone.",
+    "source_ref": "WHO Fact Sheet on AMR"
+  },
+  {
+    "claim": "Antimicrobial resistance is a growing global health threat",
+    "is_true": true,
+    "correction": "AMR is recognized by WHO as one of the top 10 global public health threats facing humanity. Without action, common infections could become untreatable.",
+    "source_ref": "WHO, 2021"
+  },
+  {
+    "claim": "You can use leftover antibiotics from a previous illness",
+    "is_true": false,
+    "correction": "Different infections require different antibiotics and dosages. Using leftover medicine may be the wrong drug, wrong dose, or an expired product, all of which can promote resistance.",
+    "source_ref": "CDC — Be Antibiotics Aware"
+  },
+  {
+    "claim": "Antibiotics have side effects only when misused",
+    "is_true": false,
+    "correction": "All antibiotics can cause side effects (diarrhea, allergic reactions, etc.) even when used correctly. This is another reason they should only be taken when truly necessary.",
+    "source_ref": "FDA Antibiotic Safety"
+  },
+  {
+    "claim": "Hand washing helps fight antibiotic resistance",
+    "is_true": true,
+    "correction": "Good hand hygiene prevents infections from spreading, reducing the overall need for antibiotics and thus slowing resistance development.",
+    "source_ref": "CDC — Clean Hands Count"
+  },
+  {
+    "claim": "Antibiotic resistance only affects people who take antibiotics frequently",
+    "is_true": false,
+    "correction": "Anyone can get a resistant infection, even those who have never taken antibiotics. Resistant bacteria can spread through communities, food, water, and the environment.",
+    "source_ref": "WHO AMR Key Facts"
+  },
+  {
+    "claim": "Stronger antibiotics are always more effective",
+    "is_true": false,
+    "correction": "The 'right' antibiotic depends on the specific bacteria causing the infection. A narrow-spectrum antibiotic matched to the pathogen is often more effective and safer than a broad-spectrum one.",
+    "source_ref": "WHO AWaRe Framework"
+  },
+  {
+    "claim": "New antibiotics will solve the resistance problem",
+    "is_true": false,
+    "correction": "Very few new antibiotics are in development, and bacteria can develop resistance to new drugs quickly. Prevention and appropriate use of existing antibiotics are our best defense.",
+    "source_ref": "WHO Antibacterial Pipeline Report, 2022"
+  },
+  {
+    "claim": "AMR is a problem for the future, not right now",
+    "is_true": false,
+    "correction": "AMR is already here. In 2019, nearly 1.3 million deaths were directly attributable to drug-resistant bacterial infections worldwide.",
+    "source_ref": "The Lancet, 2022"
+  },
+  {
+    "claim": "Most sore throats require antibiotics",
+    "is_true": false,
+    "correction": "The vast majority of sore throats are caused by viruses. Only a small percentage are bacterial (like strep throat) which can be confirmed with a test.",
+    "source_ref": "CDC Antibiotic Prescribing"
+  },
+  {
+    "claim": "You can safely share antibiotics with family members",
+    "is_true": false,
+    "correction": "Never share antibiotics. The drug prescribed for you may not be effective for someone else's infection and could cause harmful side effects or drive resistance.",
+    "source_ref": "FDA Safe Use of Antibiotics"
+  }
+]

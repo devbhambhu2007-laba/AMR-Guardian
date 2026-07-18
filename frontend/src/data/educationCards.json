@@ -1,0 +1,86 @@
+[
+  {
+    "id": "card-01",
+    "concept": "What is AMR?",
+    "explanation": "Antimicrobial Resistance occurs when bacteria, viruses, fungi, and parasites evolve to survive medicines designed to kill them, making infections harder to treat.",
+    "impact": "700,000+ deaths annually worldwide are attributed to drug-resistant infections.",
+    "source": "WHO, 2019"
+  },
+  {
+    "id": "card-02",
+    "concept": "Superbugs",
+    "explanation": "'Superbugs' are microorganisms resistant to multiple antimicrobial drugs, leaving very few or no treatment options.",
+    "impact": "By 2050, drug-resistant infections could cause 10 million deaths annually if no action is taken.",
+    "source": "O'Neill Report, 2016"
+  },
+  {
+    "id": "card-03",
+    "concept": "How Resistance Develops",
+    "explanation": "When bacteria are exposed to antibiotics, susceptible bacteria die but resistant ones survive and multiply. Misuse accelerates this natural process.",
+    "impact": "At least 30% of antibiotic prescriptions in outpatient settings are unnecessary.",
+    "source": "CDC, 2020"
+  },
+  {
+    "id": "card-04",
+    "concept": "The One Health Approach",
+    "explanation": "AMR is interconnected across human health, animal health, and the environment. Tackling it requires coordinated action across all three domains.",
+    "impact": "73% of antibiotics sold globally are used in animals raised for food.",
+    "source": "WHO One Health, 2021"
+  },
+  {
+    "id": "card-05",
+    "concept": "India and AMR",
+    "explanation": "India is among the countries most affected by AMR due to high antibiotic consumption, over-the-counter availability, and widespread self-medication.",
+    "impact": "India has one of the highest rates of antibiotic resistance globally, with over 58,000 newborn deaths annually from resistant infections.",
+    "source": "ICMR, 2022"
+  },
+  {
+    "id": "card-06",
+    "concept": "WHO AWaRe Classification",
+    "explanation": "WHO classifies antibiotics into Access (first-line, low resistance risk), Watch (higher resistance potential), and Reserve (last resort). Countries should aim for 70%+ use from the Access group.",
+    "impact": "Only 3 out of 76 countries surveyed met the 70% Access group target.",
+    "source": "WHO AWaRe, 2023"
+  },
+  {
+    "id": "card-07",
+    "concept": "Prevention is Key",
+    "explanation": "Hand hygiene, vaccination, clean water, and sanitation prevent infections, reducing the need for antibiotics in the first place.",
+    "impact": "Proper hand hygiene alone can reduce respiratory infections by up to 21%.",
+    "source": "CDC, 2022"
+  },
+  {
+    "id": "card-08",
+    "concept": "Economic Impact",
+    "explanation": "Drug-resistant infections lead to longer hospital stays, costlier treatments, and higher mortality, straining healthcare systems globally.",
+    "impact": "AMR could cost the global economy up to $100 trillion by 2050 and push 24 million people into extreme poverty.",
+    "source": "World Bank, 2017"
+  },
+  {
+    "id": "card-09",
+    "concept": "AMR in Agriculture",
+    "explanation": "Using antibiotics to promote growth in livestock contributes heavily to AMR. Resistant bacteria can spread to humans through the food supply chain and environment.",
+    "impact": "Over 70% of medically important antibiotics in some countries are sold for use in animals.",
+    "source": "FAO / WHO, 2021"
+  },
+  {
+    "id": "card-10",
+    "concept": "The Role of Vaccines",
+    "explanation": "Vaccines prevent both viral and bacterial infections. Fewer infections mean fewer antibiotics prescribed, directly lowering the chances of resistance developing.",
+    "impact": "Universal pneumococcal vaccination could prevent 11.4 million days of antibiotic use in children annually.",
+    "source": "WHO Immunization Data"
+  },
+  {
+    "id": "card-11",
+    "concept": "Future Therapies",
+    "explanation": "Scientists are exploring alternatives like bacteriophages (viruses that target bacteria) and specialized antibodies, but these are not yet widely available to replace antibiotics.",
+    "impact": "The clinical pipeline for new antimicrobials is currently insufficient to tackle the rising threat of AMR.",
+    "source": "WHO Pipeline Report, 2023"
+  },
+  {
+    "id": "card-12",
+    "concept": "How You Can Help",
+    "explanation": "Never demand antibiotics, don't share prescriptions, practice good hygiene, and ensure your vaccinations are up to date. Every action counts.",
+    "impact": "Community awareness and action can significantly curb inappropriate antibiotic use.",
+    "source": "CDC Be Antibiotics Aware"
+  }
+]

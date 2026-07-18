@@ -1,0 +1,37 @@
+{
+  "GDL-01": {
+    "title": "Medical Consultation Required",
+    "snippet": "Antibiotics should only be taken when prescribed by a certified health professional. Using antibiotics without medical guidance increases the risk of inappropriate use and contributes to antimicrobial resistance.",
+    "source": "WHO AWaRe Guidelines"
+  },
+  "GDL-02": {
+    "title": "Complete the Prescribed Course",
+    "snippet": "Stopping an antibiotic course before completion, even if symptoms improve, can allow partially resistant bacteria to survive and multiply, accelerating antimicrobial resistance.",
+    "source": "WHO/CDC AMR Guidance"
+  },
+  "GDL-03": {
+    "title": "Avoid Self-Medication",
+    "snippet": "Using leftover antibiotics or self-medicating without a prescription is a major driver of AMR. The wrong antibiotic or wrong duration can select for resistant bacteria.",
+    "source": "ICMR/WHO Guidelines"
+  },
+  "GDL-04": {
+    "title": "Antibiotics vs Viral Infections",
+    "snippet": "Antibiotics do not work against viral infections such as common colds and most coughs. Using antibiotics for viral symptoms provides no benefit and increases AMR risk.",
+    "source": "CDC Antibiotic Use Guidelines"
+  },
+  "GDL-05": {
+    "title": "Dose Adherence Matters",
+    "snippet": "Skipping doses creates periods of sub-therapeutic drug levels, giving bacteria an opportunity to develop resistance mechanisms.",
+    "source": "WHO AMR Guidance"
+  },
+  "GDL-06": {
+    "title": "Frequent Antibiotic Use",
+    "snippet": "Frequent antibiotic use within short periods increases selective pressure on bacteria, raising the likelihood of resistance development.",
+    "source": "ICMR AMR Action Plan"
+  },
+  "GDL-07": {
+    "title": "Never Share Antibiotics",
+    "snippet": "Sharing antibiotics with family members or friends means the wrong drug for the wrong infection. This dangerous practice promotes the spread of resistant bacteria.",
+    "source": "FDA / WHO Safe Use Guidelines"
+  }
+}

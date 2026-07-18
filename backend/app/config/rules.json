@@ -1,0 +1,9 @@
+[
+  { "id": "RULE-01", "condition": "doctor_consulted == false", "weight": 3, "guideline_ref": "GDL-01", "description": "No medical consultation before antibiotic use" },
+  { "id": "RULE-02", "condition": "days_completed < days_prescribed", "weight": 4, "guideline_ref": "GDL-02", "description": "Antibiotic course stopped early" },
+  { "id": "RULE-03", "condition": "self_medicated == true", "weight": 3, "guideline_ref": "GDL-03", "description": "Self-medication or leftover antibiotic use" },
+  { "id": "RULE-04", "condition": "viral_symptom_pattern AND NOT doctor_consulted", "weight": 2, "guideline_ref": "GDL-04", "description": "Antibiotic use for likely viral symptoms without consultation" },
+  { "id": "RULE-05", "condition": "doses_skipped == true", "weight": 2, "guideline_ref": "GDL-05", "description": "Doses skipped during antibiotic course" },
+  { "id": "RULE-06", "condition": "prior_use_6mo == true", "weight": 1, "guideline_ref": "GDL-06", "description": "Repeated antibiotic use within 6 months" },
+  { "id": "RULE-07", "condition": "shared_antibiotics == true", "weight": 2, "guideline_ref": "GDL-07", "description": "Shared antibiotics with others" }
+]
