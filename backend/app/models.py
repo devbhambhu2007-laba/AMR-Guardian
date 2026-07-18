@@ -1,6 +1,7 @@
 from pydantic import BaseModel
 from typing import List, Optional, Dict
 
+
 class QuestionnaireInput(BaseModel):
     age: int
     symptoms: List[str]
@@ -22,7 +23,15 @@ class RiskReason(BaseModel):
 class RiskResult(BaseModel):
     score: float
     category: str
+
+    summary: str
+    explanation: str
+
+    positives: List[str]
+    recommendations: List[str]
+
     reasons: List[RiskReason]
+
     session_id: str
 
 class ExplanationRequest(BaseModel):
